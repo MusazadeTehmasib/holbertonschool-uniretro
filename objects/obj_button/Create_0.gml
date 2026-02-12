@@ -1,0 +1,26 @@
+height = 124;
+width = 98;
+
+pos = 0;
+
+op_border = 8;
+op_space = 28;
+
+option[0, 0] = "Start";
+option[0, 1] = "Settings";
+option[0, 2] = "Credits";
+option[0, 3] = "quit";
+
+
+
+
+//settings
+option[1, 0] = "Window Size";
+option[1, 1] = "Brightness";
+option[1, 2] = "Controls";
+option[1, 3] = "Back";
+
+
+
+op_length = 0;
+menu_level = 0;

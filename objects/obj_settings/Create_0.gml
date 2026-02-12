@@ -1,0 +1,1 @@
+global.font_main = font_add_sprite(Font1, 32, true, 1);
