@@ -18,7 +18,7 @@ step by step.
 -   Genre: Exploration / Digital Environment
 -   Perspective: Top-Down (Bird's Eye View)
 -   Status: Work in Progress
--   Developer Level: Beginner / Learning Project
+-   Team: Tahmasib, Gunel, Natavan, Mikayil
 
 ------------------------------------------------------------------------
 
