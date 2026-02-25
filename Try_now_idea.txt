@@ -1,0 +1,5 @@
+The project will be exported to GX.games to enable online play. 
+This will provide a direct link for instant browser access without any downloads.
+All future updates will automatically sync to the same URL.
+Once published, the game will be searchable by name directly on the GX.games platform. 
+This will ensure accessibility across all major browsers, including Chrome and Opera.
