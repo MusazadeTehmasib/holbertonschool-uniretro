@@ -3,3 +3,11 @@ This will provide a direct link for instant browser access without any downloads
 All future updates will automatically sync to the same URL.
 Once published, the game will be searchable by name directly on the GX.games platform. 
 This will ensure accessibility across all major browsers, including Chrome and Opera.
+
+## 🕹️ Play Online
+ https://gx.games/games/xb7exk/uniretro-demo/tracks/4d524c7d-28ab-44d7-b9e2-5a2698e332f3/
+
+---
+*Current Progress: 20%. Updated via GitHub and GameMaker.*
+
+[![Play on GX.games](https://img.shields.io/badge/Play_on-GX.games-red?style=for-the-badge&logo=opera&logoColor=white)](https://gx.games/games/xb7exk/uniretro-demo/tracks/4d524c7d-28ab-44d7-b9e2-5a2698e332f3/)
