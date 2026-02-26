@@ -12,6 +12,11 @@ step by step.
 
 ------------------------------------------------------------------------
 
+## Play Now
+The project is exported to **GX.games** for instant browser access. 
+
+[![Play on GX.games](https://img.shields.io/badge/Play_on-GX.games-red?style=for-the-badge&logo=opera&logoColor=white)](UniRetro demo Try now https://gx.games/games/xb7exk/uniretro-demo/tracks/4d524c7d-28ab-44d7-b9e2-5a2698e332f3/)
+
 ## 📌 Project Overview
 
 -   Engine: GameMaker Studio
