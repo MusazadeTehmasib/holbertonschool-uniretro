@@ -1,26 +1,26 @@
-/// @description Insert description here
-// You can write your code in this editor
+height = 124;
+width = 98;
 
-txtboxH = 82;
-txtboxW = 286;
+pos = 0;
 
-border = 8;
-linesep = 15;
+op_border = 8;
+op_space = 28;
 
-lineW = txtboxW - border*2;
+option[0, 0] = "Start";
+option[0, 1] = "Settings";
+option[0, 2] = "Credits";
+option[0, 3] = "quit";
 
-txtbox_spr = spr_txtbox;
 
-txtbox_image = 0;
-txtbox_image_spd = 0;
 
-page = 0;
-pagenum = 0;
-text[0] = "text";
 
-text_length[0] = string_length(text[0]);
+//settings
+option[1, 0] = "Window Size";
+option[1, 1] = "Brightness";
+option[1, 2] = "Controls";
+option[1, 3] = "Back";
 
-draw_char = 0;
-text_speed = 1;
 
-setup = false;
+
+op_length = 0;
+menu_level = 0;
