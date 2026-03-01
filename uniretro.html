@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>UNIRETRO | Official Game Landing Page</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=VT323&amp;family=Inter:wght@400;600;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#4d6b47", // Earthy Green from the map
+                        accent: "#f0b138",  // Retro Golden Yellow
+                        "background-light": "#f4f4f2",
+                        "background-dark": "#1a1c1a",
+                        "panel-light": "#ffffff",
+                        "panel-dark": "#2a2e2a",
+                    },
+                    fontFamily: {
+                        display: ["'Press Start 2P'", "cursive"],
+                        pixel: ["'VT323'", "monospace"],
+                        sans: ["'Inter'", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "4px",
+                        "xl": "12px",
+                    },
+                },
+            },
+        };
+    </script>
+<style>
+        .pixel-border {
+            box-shadow: 
+                0 -4px 0 0 #000,
+                0 4px 0 0 #000,
+                -4px 0 0 0 #000,
+                4px 0 0 0 #000;
+        }
+        .pixel-shadow {
+            box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.2);
+        }
+        .scanline {
+            background: linear-gradient(
+                to bottom,
+                rgba(18, 16, 16, 0) 50%,
+                rgba(0, 0, 0, 0.1) 50%
+            );
+            background-size: 100% 4px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 font-sans transition-colors duration-300">
+<nav class="fixed top-0 w-full z-50 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md border-b-4 border-primary">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-20">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-primary text-3xl">school</span>
+<span class="font-display text-lg tracking-tighter text-primary">UNIRETRO</span>
+</div>
+<div class="hidden md:flex space-x-8 font-pixel text-2xl">
+<a class="hover:text-primary transition-colors" href="#home">Home</a>
+<a class="hover:text-primary transition-colors" href="#about">About</a>
+<a class="hover:text-primary transition-colors" href="#features">Features</a>
+<a class="hover:text-primary transition-colors" href="#gallery">Gallery</a>
+</div>
+<div class="flex items-center space-x-4">
+<button class="p-2 hover:bg-slate-200 dark:hover:bg-slate-800 rounded-full transition-colors" onclick="document.documentElement.classList.toggle('dark')">
+<span class="material-symbols-outlined">dark_mode</span>
+</button>
+<a class="bg-primary hover:bg-opacity-90 text-white font-pixel text-xl px-6 py-2 pixel-shadow transition-transform hover:-translate-y-1" href="#">PLAY NOW</a>
+</div>
+</div>
+</div>
+</nav>
+<header class="relative pt-32 pb-20 overflow-hidden" id="home">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-12">
+<div class="flex-1 text-center lg:text-left z-10">
+<h1 class="font-display text-4xl lg:text-6xl leading-tight mb-6 text-slate-900 dark:text-white">
+                    Step Into Your <span class="text-primary">Campus</span> Legend.
+                </h1>
+<p class="font-pixel text-2xl lg:text-3xl mb-10 text-slate-600 dark:text-slate-400 max-w-2xl">
+                    A nostalgic 2D top-down exploration of your university. Relive the moments, master the shortcuts, and uncover secrets in beautiful pixel art.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+<button class="bg-accent hover:bg-yellow-500 text-black font-display text-xs px-8 py-5 pixel-shadow flex items-center justify-center gap-3 transition-all hover:scale-105">
+<span class="material-symbols-outlined">download</span>
+                        DOWNLOAD NOW
+                    </button>
+<button class="border-4 border-primary dark:border-primary text-primary font-display text-xs px-8 py-5 flex items-center justify-center gap-3 transition-all hover:bg-primary hover:text-white">
+<span class="material-symbols-outlined">play_circle</span>
+                        WATCH TRAILER
+                    </button>
+</div>
+</div>
+<div class="flex-1 relative group">
+<div class="absolute inset-0 bg-primary/20 blur-3xl rounded-full"></div>
+<div class="relative p-2 bg-black pixel-border">
+<img alt="UNIRETRO Campus Map Pixel Art" class="w-full h-auto grayscale-[20%] group-hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIC_scGJXdrjJETXsF9QpPTj-i6zgf9caxA9Yv-C6J9bCE5CdAk2Fjb1RfjfNd8PykwTlDpdpcMRfZmHjXyTYngr_HuUS26VteGqFjSu0oUQJ5_taerlCYsUBPNKqHjnbdA3Gdm2fM2B7ulr-jsZHGbG8EfaivgaHLbiX_kAY0r0iQPDefm9Mta3DI1_jeMTJN89zeKp8z3XOQP_xuwdXh5W2VWXav22mI_1Cf0o2isnwWZyMC1bGUJSIQpGqC_j6G4Ypa6Sjf4-g"/>
+<div class="scanline absolute inset-0"></div>
+</div>
+</div>
+</div>
+</header>
+<section class="py-24 bg-panel-light dark:bg-panel-dark transition-colors" id="about">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row gap-16 items-center">
+<div class="md:w-1/2 order-2 md:order-1">
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-background-light dark:bg-background-dark p-6 pixel-border">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">joystick</span>
+<h3 class="font-display text-xs mb-2">Classic Controls</h3>
+<p class="font-pixel text-xl text-slate-500">Tight 4-directional movement with smooth pixel-perfect animations.</p>
+</div>
+<div class="bg-background-light dark:bg-background-dark p-6 pixel-border mt-8">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">map</span>
+<h3 class="font-display text-xs mb-2">Real Campus</h3>
+<p class="font-pixel text-xl text-slate-500">Every building and tree meticulously recreated from aerial mapping.</p>
+</div>
+</div>
+</div>
+<div class="md:w-1/2 order-1 md:order-2">
+<h2 class="font-display text-3xl mb-8 border-l-8 border-primary pl-6">ABOUT THE GAME</h2>
+<p class="font-pixel text-2xl text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
+                        UNIRETRO is a love letter to campus life. We've built an intricate collision system that lets you navigate the bustling squares and quiet parks of the university.
+                    </p>
+<p class="font-pixel text-2xl text-slate-600 dark:text-slate-400 mb-8 leading-relaxed">
+                        Explore every nook and cranny. From the massive library tower to the hidden shortcuts through the forest zones, your campus is now your playground.
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-primary text-white overflow-hidden relative">
+<div class="absolute top-0 left-0 w-full h-full opacity-10">
+<div class="grid grid-cols-12 gap-1 w-full h-full">
+<script>
+                    for(let i=0; i<48; i++) {
+                        document.write('<div class="h-20 border border-white"></div>');
+                    }
+                </script>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="text-center mb-16">
+<h2 class="font-display text-3xl mb-4">INTERACTIVE DIALOGUES</h2>
+<p class="font-pixel text-2xl opacity-90">Talk to NPCs, get quests, and learn university lore.</p>
+</div>
+<div class="max-w-4xl mx-auto">
+<div class="bg-slate-900 p-8 border-4 border-white pixel-shadow relative">
+<div class="flex gap-6 items-start">
+<div class="w-24 h-24 bg-slate-700 flex-shrink-0 border-4 border-slate-600 flex items-center justify-center">
+<span class="material-symbols-outlined text-5xl">person</span>
+</div>
+<div class="flex-1">
+<h4 class="font-display text-accent text-sm mb-4">PROFESSOR PIXEL</h4>
+<p class="font-pixel text-3xl leading-snug">
+                                "Welcome to the Computer Science building! Have you finished your data structures assignment yet? The deadline is approaching fast..."
+                            </p>
+</div>
+</div>
+<div class="absolute bottom-4 right-4 animate-bounce">
+<span class="material-symbols-outlined">arrow_drop_down</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-background-light dark:bg-background-dark" id="features">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="group p-8 border-4 border-transparent hover:border-primary transition-all bg-panel-light dark:bg-panel-dark pixel-shadow">
+<div class="w-16 h-16 bg-primary/10 text-primary flex items-center justify-center mb-6 rounded-lg group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">directions_run</span>
+</div>
+<h3 class="font-display text-sm mb-4">Dynamic Sprites</h3>
+<p class="font-pixel text-xl text-slate-500">Character animations that change based on your speed and direction for maximum immersion.</p>
+</div>
+<div class="group p-8 border-4 border-transparent hover:border-primary transition-all bg-panel-light dark:bg-panel-dark pixel-shadow">
+<div class="w-16 h-16 bg-primary/10 text-primary flex items-center justify-center mb-6 rounded-lg group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">weather_mix</span>
+</div>
+<h3 class="font-display text-sm mb-4">Day/Night Cycle</h3>
+<p class="font-pixel text-xl text-slate-500">Watch the campus change as the sun sets. Street lamps flicker on and the atmosphere shifts.</p>
+</div>
+<div class="group p-8 border-4 border-transparent hover:border-primary transition-all bg-panel-light dark:bg-panel-dark pixel-shadow">
+<div class="w-16 h-16 bg-primary/10 text-primary flex items-center justify-center mb-6 rounded-lg group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">extension</span>
+</div>
+<h3 class="font-display text-sm mb-4">Hidden Minigames</h3>
+<p class="font-pixel text-xl text-slate-500">Discover classic arcade games tucked away in different departments of the university.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-panel-light dark:bg-panel-dark" id="gallery">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="font-display text-3xl mb-12 text-center">CAMPUS SIGHTS</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="aspect-square bg-slate-200 dark:bg-slate-800 border-4 border-slate-900 overflow-hidden relative group">
+<img alt="Pixel Art Tech" class="w-full h-full object-cover opacity-50 group-hover:opacity-100 transition-opacity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkZJuIZ0HfGLqbSNBsePMz9CDUTBzw-9TlXZojSAp_v6e6oEqxQuT64Uny_lXlFdRcwqyoVGrC96ewIY7-piCxkYtfW_L8CSmeej82XFkAnddoa7KifPuPE-Ml1hbkRpb_lbv0gp0f2Gb-HHdqreb5sTLRHVI_ubS52sDM5SCJ-VvnSS0ePIiFsKPg7Cx3i8eABnJVyPolgEvUuRZDch43hcspqPMuzI_ZXS2sOPH3PQYE699DA40rK1o6Ofnok4jrLTmyD1arLpk"/>
+<div class="absolute inset-0 flex items-center justify-center text-white font-pixel text-2xl pointer-events-none">THE COMMONS</div>
+</div>
+<div class="aspect-square bg-slate-200 dark:bg-slate-800 border-4 border-slate-900 overflow-hidden relative group">
+<img alt="Pixel Art Nature" class="w-full h-full object-cover opacity-50 group-hover:opacity-100 transition-opacity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCM5rb6IWCZx9Qmvv4qu8TPq5FnnDeWl84I_kwWt3teeybeQkj1VbDbHYE1aeC9m5d3Zv7YlG7m_o6T2a1v55LeRJBZuduFTaUEJsoK8r7kUHjXGe3xKgkUJyA2PhkkrQIdk7wIRODADsXX5tBjFc2cKSJ9PuTe4HgAP5dJhLS_KXhGtoBXepzI_xT6_sYWCGkXKfbu5xqb5_oP_zKG3MezJIdgoNOYSx2CEAmIuyIR0UI9rdjA9aOIXEZwb-M3erGS4Ew0WHqHvbE"/>
+<div class="absolute inset-0 flex items-center justify-center text-white font-pixel text-2xl pointer-events-none">OAK GROVE</div>
+</div>
+<div class="aspect-square bg-slate-200 dark:bg-slate-800 border-4 border-slate-900 overflow-hidden relative group">
+<img alt="Pixel Art City" class="w-full h-full object-cover opacity-50 group-hover:opacity-100 transition-opacity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwztDL3X05_nAiNQdSV8Sil8nrQDFhMndRAsUop3gh61q0gU3YYTiqRwDS8f4AWEGyJFKbaMjPkz2aQluxRasdriS3DpWcBLCu9Zr7Xjgp6AqN0gu_l_ncICI2yr1VqeQO0h7BdrUOlQRtzPraOd2FSnj-L5rR3SR3tuTM3Hd7UXHJVp_8gkFfdmc1hwXAFw-PCdvdnA0zNAIn_7THYa_CYy_xL_K_ylvNDOupvLeZLO-yBfX_BwVftjN3nF2aIpqHwaU9o0JAT7k"/>
+<div class="absolute inset-0 flex items-center justify-center text-white font-pixel text-2xl pointer-events-none">MAIN TOWER</div>
+</div>
+<div class="aspect-square bg-slate-200 dark:bg-slate-800 border-4 border-slate-900 overflow-hidden relative group">
+<img alt="Pixel Art Game" class="w-full h-full object-cover opacity-50 group-hover:opacity-100 transition-opacity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPtGGOOEu6Pko51E48efMFpTUnRV3uLOKEwxSxw0nWsNNoh9DJGLvYUrM87rqrVuV8gcs7S2HMp3RHmgTTHd089MWDI2D8dhMa2vV7UCDqkNCgSbcYdP4BanteA8pYJq0ly3Ue1Et1u1VF_y1xIieUB95H5XOXtA7szaxq1e-oHcSFoSEQFe9Bjz95mxRUghxNXcpfhs67JvvJF_sYsnpiaOPaqjBa7WIMv0QokV1eZSWxIAbql-K2k7KuPnQTiFlLOSCh560SMh0"/>
+<div class="absolute inset-0 flex items-center justify-center text-white font-pixel text-2xl pointer-events-none">THE QUAD</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-background-dark text-slate-400 py-16 border-t-8 border-primary">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-primary text-3xl">school</span>
+<span class="font-display text-lg tracking-tighter text-white">UNIRETRO</span>
+</div>
+<div class="flex space-x-6 font-pixel text-xl">
+<a class="hover:text-primary" href="#">Twitter</a>
+<a class="hover:text-primary" href="#">Discord</a>
+<a class="hover:text-primary" href="#">Instagram</a>
+<a class="hover:text-primary" href="#">GitHub</a>
+</div>
+<div class="text-right">
+<p class="font-pixel text-xl">Created with ♡ by RetroLabs Developer Team</p>
+<p class="text-xs font-mono uppercase tracking-widest mt-2">© 2024 UNIRETRO GAME PROJECT. ALL RIGHTS RESERVED.</p>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Smooth scroll for anchors
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body></html>
