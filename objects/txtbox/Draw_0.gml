@@ -38,7 +38,7 @@ if confirm_key{
 			page++
 			draw_char = 0;
 		}else {
-			player_starlo.move_spd = 1;
+			player_starlo.move_spd = 3;
 			player_starlo.can_move = true;
 			instance_destroy()
 		}

@@ -1,0 +1,1 @@
+text[0] = "This is the 2nd Campus";

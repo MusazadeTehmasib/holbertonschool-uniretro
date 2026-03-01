@@ -4,7 +4,7 @@
 xspd = 0;
 yspd = 0;
 
-move_spd = 2;
+move_spd = 3;
 can_move = true;
 
 right_key = keyboard_check(vk_right);

@@ -35,5 +35,5 @@
     "path":"sprites/spr_muk/spr_muk.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
