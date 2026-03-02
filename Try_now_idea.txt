@@ -12,4 +12,4 @@ Note: Currently, the web version is optimized for Desktop (Keyboard).
 Mobile support (touch controls) is planned for future updates.
 ---
 
-*Current Progress: 20%. Updated via GitHub and GameMaker.*
+*Current Progress:%. Updated via GitHub and GameMaker.*
