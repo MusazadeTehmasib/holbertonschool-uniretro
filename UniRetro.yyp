@@ -1,8 +1,8 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"UniRetro",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -29,13 +29,14 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"DeterminationMonoWebRegular-Z5oq.ttf","CopyToMask":-1,"filePath":"datafiles","name":"DeterminationMonoWebRegular-Z5oq.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"UniRetro",
   "resources":[
@@ -43,6 +44,7 @@
     {"id":{"name":"obj_battle_soul","path":"objects/obj_battle_soul/obj_battle_soul.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"obj_fountain","path":"objects/obj_fountain/obj_fountain.yy",},},
     {"id":{"name":"obj_scene","path":"objects/obj_scene/obj_scene.yy",},},
     {"id":{"name":"obj_settings","path":"objects/obj_settings/obj_settings.yy",},},
     {"id":{"name":"obj_txt_trigger","path":"objects/obj_txt_trigger/obj_txt_trigger.yy",},},
@@ -67,11 +69,12 @@
     {"id":{"name":"ow_starlo_left","path":"sprites/ow_starlo_left/ow_starlo_left.yy",},},
     {"id":{"name":"ow_starlo_right","path":"sprites/ow_starlo_right/ow_starlo_right.yy",},},
     {"id":{"name":"ow_starlo_up","path":"sprites/ow_starlo_up/ow_starlo_up.yy",},},
+    {"id":{"name":"sFountain","path":"sprites/sFountain/sFountain.yy",},},
     {"id":{"name":"spr_muk","path":"sprites/spr_muk/spr_muk.yy",},},
     {"id":{"name":"spr_soul","path":"sprites/spr_soul/spr_soul.yy",},},
     {"id":{"name":"spr_txtbox","path":"sprites/spr_txtbox/spr_txtbox.yy",},},
-    {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},},
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
+    {"id":{"name":"Sprite22","path":"sprites/Sprite22/Sprite22.yy",},},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
     {"id":{"name":"title_button","path":"sprites/title_button/title_button.yy",},},
   ],
