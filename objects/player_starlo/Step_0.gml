@@ -59,11 +59,13 @@ if (!global.is_emoting) {
     // --- Horizontal Collision ---
     if (place_meeting(x + xspd, y,      owall))        { xspd = 0; }
     if (place_meeting(x + xspd, y + 25, obj_fountain)) { xspd = 0; }
+	if (place_meeting(x + xspd, y, obj_bench))         { xspd = 0; }
 
     // --- Vertical Collision ---
     if (place_meeting(x, y + yspd,      owall))        { yspd = 0; }
     // This ensures the hat is ignored whether you move UP or DOWN
     if (place_meeting(x, y + yspd + 25, obj_fountain)) { yspd = 0; }
+	if (place_meeting(x, y + yspd, obj_bench))         { yspd = 0; }
 
     if (xspd > 0)      { sprite_index = ow_starlo_right; }
     else if (xspd < 0) { sprite_index = ow_starlo_left;  }

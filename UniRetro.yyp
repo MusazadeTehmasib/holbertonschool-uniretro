@@ -42,6 +42,7 @@
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"obj_battle_soul","path":"objects/obj_battle_soul/obj_battle_soul.yy",},},
+    {"id":{"name":"obj_bench","path":"objects/obj_bench/obj_bench.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_fountain","path":"objects/obj_fountain/obj_fountain.yy",},},
@@ -69,6 +70,7 @@
     {"id":{"name":"ow_starlo_left","path":"sprites/ow_starlo_left/ow_starlo_left.yy",},},
     {"id":{"name":"ow_starlo_right","path":"sprites/ow_starlo_right/ow_starlo_right.yy",},},
     {"id":{"name":"ow_starlo_up","path":"sprites/ow_starlo_up/ow_starlo_up.yy",},},
+    {"id":{"name":"sbench","path":"sprites/sbench/sbench.yy",},},
     {"id":{"name":"sFountain","path":"sprites/sFountain/sFountain.yy",},},
     {"id":{"name":"spr_muk","path":"sprites/spr_muk/spr_muk.yy",},},
     {"id":{"name":"spr_soul","path":"sprites/spr_soul/spr_soul.yy",},},
