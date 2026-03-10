@@ -7,7 +7,7 @@ if (keyboard_check_pressed(ord("E")) && near_bench) {
         sprite_index = player_sit;                       // switch to sit sprite
         image_speed = 0;                                 // stop animation
         with (obj_bench) { mask_index = -1; }           // disable bench collision
-        x = obj_bench.x - 13;                           // adjust left/right on bench
+        x = obj_bench.x - 10;                           // adjust left/right on bench
         y = obj_bench.y - 25;                           // adjust up/down on bench
         depth = -y - 100;                               // force player to render above bench
     } else {
