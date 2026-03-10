@@ -71,6 +71,7 @@
     {"id":{"name":"ow_starlo_left","path":"sprites/ow_starlo_left/ow_starlo_left.yy",},},
     {"id":{"name":"ow_starlo_right","path":"sprites/ow_starlo_right/ow_starlo_right.yy",},},
     {"id":{"name":"ow_starlo_up","path":"sprites/ow_starlo_up/ow_starlo_up.yy",},},
+    {"id":{"name":"player_sit","path":"sprites/player_sit/player_sit.yy",},},
     {"id":{"name":"sbench","path":"sprites/sbench/sbench.yy",},},
     {"id":{"name":"sbench2","path":"sprites/sbench2/sbench2.yy",},},
     {"id":{"name":"sFountain","path":"sprites/sFountain/sFountain.yy",},},

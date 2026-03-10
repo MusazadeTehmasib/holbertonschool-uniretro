@@ -1,3 +1,30 @@
+// --- Bench Sitting Logic ---
+var near_bench = (distance_to_object(obj_bench) < 32); // check if player is close to bench
+
+if (keyboard_check_pressed(ord("E")) && near_bench) {
+    if (!sitting) {
+        sitting = true;
+        sprite_index = player_sit;                       // switch to sit sprite
+        image_speed = 0;                                 // stop animation
+        with (obj_bench) { mask_index = -1; }           // disable bench collision
+        x = obj_bench.x - 13;                           // adjust left/right on bench
+        y = obj_bench.y - 25;                           // adjust up/down on bench
+        depth = -y - 100;                               // force player to render above bench
+    } else {
+        sitting = false;
+        sprite_index = ow_starlo_down;                  // switch back to stand sprite
+        with (obj_bench) { mask_index = sprite_index; } // restore bench collision
+        x = obj_bench.x + 40;                           // exit to the right of bench
+        y = obj_bench.y;                                // reset Y position
+    }
+}
+
+// block all movement and emotes while sitting
+if (sitting) {
+    exit;
+}
+
+
 // --- Input Handling ---
 right_key = keyboard_check(vk_right);
 left_key  = keyboard_check(vk_left);

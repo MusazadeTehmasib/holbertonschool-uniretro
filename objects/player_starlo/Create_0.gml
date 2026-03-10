@@ -13,3 +13,5 @@ up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 emote_key = keyboard_check_pressed(ord("z"));
 
+sitting = false; // player starts standing
+
