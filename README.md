@@ -15,7 +15,7 @@ step by step.
 ## 📌 Project Overview
 
 -   Engine: GameMaker Studio
--   **Try the game here:** https://gx.games/games/xb7exk/uniretro-demo/tracks/4d524c7d-28ab-44d7-b9e2-5a2698e332f3/)
+-   **Try the game here:**[ ](https://gx.games/games/xb7exk/uniretro/)
 -   Genre: Exploration / Digital Environment
 -   Perspective: Top-Down (Bird's Eye View)
 -   Status: Work in Progress
