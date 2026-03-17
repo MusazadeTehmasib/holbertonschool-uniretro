@@ -57,6 +57,7 @@
     {"id":{"name":"player_starlo","path":"objects/player_starlo/player_starlo.yy",},},
     {"id":{"name":"txtbox","path":"objects/txtbox/txtbox.yy",},},
     {"id":{"name":"full","path":"rooms/full/full.yy",},},
+    {"id":{"name":"library","path":"rooms/library/library.yy",},},
     {"id":{"name":"ow_room","path":"rooms/ow_room/ow_room.yy",},},
     {"id":{"name":"title","path":"rooms/title/title.yy",},},
     {"id":{"name":"bg_core_front","path":"sprites/bg_core_front/bg_core_front.yy",},},
@@ -78,6 +79,7 @@
     {"id":{"name":"sbench2","path":"sprites/sbench2/sbench2.yy",},},
     {"id":{"name":"sFountain","path":"sprites/sFountain/sFountain.yy",},},
     {"id":{"name":"spr_cat","path":"sprites/spr_cat/spr_cat.yy",},},
+    {"id":{"name":"spr_library","path":"sprites/spr_library/spr_library.yy",},},
     {"id":{"name":"spr_muk","path":"sprites/spr_muk/spr_muk.yy",},},
     {"id":{"name":"spr_soul","path":"sprites/spr_soul/spr_soul.yy",},},
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},},
@@ -93,6 +95,7 @@
     {"roomId":{"name":"title","path":"rooms/title/title.yy",},},
     {"roomId":{"name":"ow_room","path":"rooms/ow_room/ow_room.yy",},},
     {"roomId":{"name":"full","path":"rooms/full/full.yy",},},
+    {"roomId":{"name":"library","path":"rooms/library/library.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

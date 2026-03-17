@@ -5,6 +5,11 @@ xspd = 0;
 yspd = 0;
 
 move_spd = 3;
+
+if (os_browser != browser_not_a_browser) {
+    move_spd = 6; // speed in browser
+}
+
 can_move = true;
 
 right_key = keyboard_check(vk_right);
