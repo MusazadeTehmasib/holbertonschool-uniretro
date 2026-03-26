@@ -1,1 +1,1 @@
-room_goto(library);
+room_goto(library)
