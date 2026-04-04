@@ -1,1 +1,1 @@
-room_goto(library)
+room_goto(rm_library)

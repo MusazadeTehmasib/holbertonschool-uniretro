@@ -1,0 +1,1 @@
+global.light_repaired = false; // Свет сломан по умолчанию во всей игре
