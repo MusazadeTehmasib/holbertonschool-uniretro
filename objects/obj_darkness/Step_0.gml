@@ -1,5 +1,6 @@
-// Если игрок нажал на выключатель (флаг стал true), плавно исчезаем
-if (global.light_repaired) {
-    alpha -= 0.02;
-    if (alpha <= 0) instance_destroy();
+// Если глобальная переменная "свет починен" равна true
+if (global.light_repaired == true) {
+    visible = false; // Просто выключаем видимость всего объекта
+} else {
+    visible = true;  // Включаем видимость обратно
 }
