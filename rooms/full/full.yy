@@ -40,6 +40,7 @@
     {"name":"inst_572CB7DB","path":"rooms/full/full.yy",},
     {"name":"inst_6D231823","path":"rooms/full/full.yy",},
     {"name":"inst_26C96FF1","path":"rooms/full/full.yy",},
+    {"name":"inst_59421412","path":"rooms/full/full.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -78,6 +79,7 @@
         {"$GMRInstance":"v4","%Name":"inst_572CB7DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_572CB7DB","objectId":{"name":"owall","path":"objects/owall/owall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":480.0,"y":1216.0,},
         {"$GMRInstance":"v4","%Name":"inst_6D231823","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D231823","objectId":{"name":"owall","path":"objects/owall/owall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.0,"x":448.0,"y":1216.0,},
         {"$GMRInstance":"v4","%Name":"inst_26C96FF1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_26C96FF1","objectId":{"name":"obj_pine","path":"objects/obj_pine/obj_pine.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.39062738,"scaleY":0.34217516,"x":287.8047,"y":800.0,},
+        {"$GMRInstance":"v4","%Name":"inst_59421412","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_59421412","objectId":{"name":"obj_vending_machine","path":"objects/obj_vending_machine/obj_vending_machine.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.2799745,"scaleY":0.27914643,"x":442.9091,"y":85.5,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_15217A41","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":true,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_15217A41","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.1621622,"scaleY":1.1428572,"spriteId":{"name":"map","path":"sprites/map/map.yy",},"x":0.0,"y":-128.0,},

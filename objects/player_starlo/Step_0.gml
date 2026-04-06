@@ -88,7 +88,8 @@ if (!global.is_emoting) {
     if (place_meeting(x + xspd, y + 25, obj_fountain)) { xspd = 0; }
 	if (place_meeting(x + xspd, y, obj_bench))         { xspd = 0; }
 	if (place_meeting(x + xspd, y - 20,      obj_tree))     { xspd = 0; }
-	if (place_meeting(x + xspd, y - 20,      obj_pine))     { xspd  = 0; }    
+	if (place_meeting(x + xspd, y - 20,      obj_pine))     { xspd  = 0; }  
+	if (place_meeting(x + xspd, y, obj_vending_machine)) { xspd = 0; }
 
     // --- Vertical Collision ---
     if (place_meeting(x, y + yspd,      owall))        { yspd = 0; }
@@ -97,6 +98,7 @@ if (!global.is_emoting) {
 	if (place_meeting(x, y + yspd, obj_bench))         { yspd = 0; }
 	if (place_meeting(x, y + yspd - 20,      obj_tree))     { yspd = 0; }
 	if (place_meeting(x, y + yspd - 20,      obj_pine))     { yspd = 0; }
+	if (place_meeting(x, y + yspd, obj_vending_machine)) { yspd = 0; }
 	
 
     if (xspd > 0)      { sprite_index = ow_starlo_right; }
@@ -116,4 +118,4 @@ if (!global.is_emoting) {
 }
 
 // Depth sorting (Crucial for visual layering)
-depth = -y;
+depth = -(y - 40);

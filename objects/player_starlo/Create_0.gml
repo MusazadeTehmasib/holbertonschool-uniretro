@@ -5,6 +5,7 @@ xspd = 0;
 yspd = 0;
 
 move_spd = 3;
+can_move = true; // Разрешено ли ходить
 
 if (os_browser != browser_not_a_browser) {
     move_spd = 6; // speed in browser
