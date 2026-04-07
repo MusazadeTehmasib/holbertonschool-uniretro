@@ -118,4 +118,4 @@ if (!global.is_emoting) {
 }
 
 // Depth sorting (Crucial for visual layering)
-depth = -(y - 40);
+depth = -y;
