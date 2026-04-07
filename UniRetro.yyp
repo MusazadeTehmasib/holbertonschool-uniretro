@@ -104,6 +104,7 @@
     {"id":{"name":"spr_pine","path":"sprites/spr_pine/spr_pine.yy",},},
     {"id":{"name":"spr_plants","path":"sprites/spr_plants/spr_plants.yy",},},
     {"id":{"name":"spr_soul","path":"sprites/spr_soul/spr_soul.yy",},},
+    {"id":{"name":"spr_speed_bonus","path":"sprites/spr_speed_bonus/spr_speed_bonus.yy",},},
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},},
     {"id":{"name":"spr_txtbox","path":"sprites/spr_txtbox/spr_txtbox.yy",},},
     {"id":{"name":"spr_ui_press_e","path":"sprites/spr_ui_press_e/spr_ui_press_e.yy",},},
